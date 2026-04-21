@@ -164,3 +164,17 @@ fieldset {
 		color: #1a1a2e;
 	}
 }
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 1rem;
+	padding: 20px 40px;
+}
+
+.flex-container > * {
+	flex: 1;
+	min-width: 200px;
+}
