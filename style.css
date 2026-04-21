@@ -15,11 +15,12 @@
 /* page background */
 body {
 	background-color: #f5f5f5;
+	color: #1a1a2e;
 }
 
 /* sticky header */
 header {
-	background-color: var(--accent, royalblue);
+	background-color: var(--header-bg, royalblue);
 	padding: 20px 40px;
 	position: sticky;
 	top: 0px;
@@ -27,12 +28,18 @@ header {
 	height: 80px;
 }
 
-/* headings */
-h1,
-h2,
-h3 {
+/* headings - white only inside header */
+header h1,
+header h2 {
 	color: #ffffff;
 	text-align: center;
+}
+
+/* headings outside header */
+h3 {
+	color: #1a1a2e;
+	text-align: left;
+	margin-bottom: 0.5rem;
 }
 
 /* nav links */
@@ -150,6 +157,7 @@ fieldset {
 	padding: 20px;
 	max-width: 500px;
 	margin: auto;
+	background-color: #ffffff;
 }
 
 /* form inputs */
@@ -239,6 +247,10 @@ footer {
 	margin-bottom: 10px;
 	margin-left: 0px;
 	margin-right: 0px;
+	text-align: center;
+	padding: 20px;
+	background-color: #1a1a2e;
+	color: white;
 }
 
 /* tablet */
