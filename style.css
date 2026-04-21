@@ -21,11 +21,11 @@ body {
 /* sticky header */
 header {
 	background-color: var(--accent, royalblue);
-	padding: 20px 40px;
 	position: sticky;
 	top: 0px;
 	width: 100%;
-	height: 80px;
+	height: auto;
+	padding: 10px 40px;
 }
 
 /* headings */
@@ -218,6 +218,7 @@ fieldset {
 	flex-wrap: wrap;
 	gap: 1rem;
 	padding: 20px 40px;
+	background-color: #ffffff;
 }
 
 /* flex children */
@@ -233,6 +234,7 @@ fieldset {
 	grid-gap: 1.5rem;
 	grid-template-rows: auto;
 	padding: 20px 40px;
+	background-color: #ffffff;
 }
 
 /* fix h3 color inside grid sections */
@@ -243,6 +245,12 @@ fieldset {
 /* fix h3 for form and other sections outside main */
 section h3 {
 	color: #1a1a2e;
+}
+
+/* add scroll margin so sections don't hide under sticky header */
+section {
+	scroll-margin-top: 80px;
+	padding: 20px 40px;
 }
 
 /* footer */
