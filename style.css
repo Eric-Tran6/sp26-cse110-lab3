@@ -1,3 +1,10 @@
+* {
+	box-sizing: border-box;
+	font-family: "Inter", "Roboto", sans-serif;
+	margin: 0pt;
+	padding: 0cm;
+}
+
 :root {
 	--accent: #e94560;
 	--header-bg: #1a1a2e;
