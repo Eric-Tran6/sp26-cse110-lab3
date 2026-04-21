@@ -51,3 +51,36 @@ nav a:hover {
 nav a:active {
 	color: orange;
 }
+
+#attendance,
+#agenda {
+	padding: 20px 40px;
+	margin-bottom: 1rem;
+}
+
+#attendance h3,
+#agenda h3 {
+	font-size: 1.5rem;
+	border-bottom: 2px solid #e94560;
+	padding-bottom: 0.5rem;
+}
+
+#attendance ul,
+#agenda ol {
+	margin-top: 10px;
+	padding-left: 1.5rem;
+	line-height: 2rem;
+}
+
+h2 ~ p {
+	color: rgb(80, 80, 80);
+}
+
+h2 + p {
+	font-size: 0.95rem;
+}
+
+p.intro {
+	text-decoration: underline;
+	text-align: center;
+}
