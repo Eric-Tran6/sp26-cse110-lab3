@@ -20,7 +20,7 @@ body {
 
 /* sticky header */
 header {
-	background-color: var(--header-bg, royalblue);
+	background-color: var(--accent, royalblue);
 	padding: 20px 40px;
 	position: sticky;
 	top: 0px;
@@ -28,7 +28,7 @@ header {
 	height: 80px;
 }
 
-/* headings - white only inside header */
+/* headings */
 header h1,
 header h2 {
 	color: #ffffff;
@@ -233,6 +233,16 @@ fieldset {
 	grid-gap: 1.5rem;
 	grid-template-rows: auto;
 	padding: 20px 40px;
+}
+
+/* fix h3 color inside grid sections */
+.grid-container h3 {
+	color: #1a1a2e;
+}
+
+/* fix h3 for form and other sections outside main */
+section h3 {
+	color: #1a1a2e;
 }
 
 /* footer */
