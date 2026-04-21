@@ -84,3 +84,27 @@ p.intro {
 	text-decoration: underline;
 	text-align: center;
 }
+
+#media {
+	padding: 20px 40px;
+}
+
+#media img {
+	border-radius: 8px;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 2px;
+	display: block;
+	margin-bottom: 1rem;
+	max-width: 100%;
+	min-width: 100px;
+}
+
+#media video {
+	display: block;
+	max-width: 100%;
+}
+
+#media:has(img) {
+	background-color: rgba(0, 0, 0, 0.05);
+}
