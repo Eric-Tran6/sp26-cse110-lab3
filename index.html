@@ -12,6 +12,14 @@
 		<link
 			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet" />
+		<style>
+			.meeting-status {
+				font-style: italic;
+			}
+			.hidden {
+				display: none;
+			}
+		</style>
 		<title>Meeting Minutes - April 13</title>
 	</head>
 	<body>
@@ -137,7 +145,10 @@
 				</fieldset>
 			</form>
 		</section>
-		<p>Meeting status: <span>Inactive</span></p>
+		<p style="font-size: 14px; color: gray" class="meeting-status">
+			Meeting status: <span>Inactive</span>
+			<span class="hidden">hidden</span>
+		</p>
 		<footer>
 			<p>&copy; Eric Tran</p>
 		</footer>
